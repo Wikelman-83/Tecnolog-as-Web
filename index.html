@@ -2,33 +2,53 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tecnologías Web</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
+  <div class="header-horizontal">
+  <img src="https://libel.academy/blender-junior-pro/static/media/UTPL%20fondo%20oscuro.6b719daee97357011185.png" alt="logo UTPL" class="logo">
   <h1>Bienvenido a la Página Principal</h1>
   <nav>
-    <!-- Uso de <span> para que queden en línea -->
-    <span><a href="index.html">Inicio</a></span>
-    <span> | </span>
-    <span><a href="libros.html">Reseñas de Libros</a></span>
-    <span> | </span>
-    <span><a href="peliculas.html">Reseñas de Películas</a></span>
-    <span> | </span>
-    <span><a href="videojuegos.html">Reseñas de Videojuegos</a></span>
+    <ul>
+      <li><a href="libros.html">Reseñas de Libros</a></li>
+      <li><a href="peliculas.html">Reseñas de Películas</a></li>
+      <li><a href="videojuegos.html">Reseñas de Videojuegos</a></li>
+    </ul>
   </nav>
-  <p>     Esta página es un ejemplo de un sitio web simple utilizando HTML, 
+  </div>
+</header>
+
+<main>
+  <div class="dashboard">
+  <section class="tarjeta">
+    <p>
+     Esta página es un ejemplo de un sitio web simple utilizando HTML, 
      Donde podemos observar la utilización de etiquetas, imágenes, enlaces. 
      Todo dentro de lo visto en la asignatura Tecnologías Web.
      <br>
-          En una página presentada en la tarea anterior, utilice una lista para los botones 
-     de navegación, y en esta página utilice <span> para que queden en línea.
-          Además, utilice un párrafo para el contenido de la página.
-  </p>
-</header>
-<main>
+      En una página presentada en la tarea anterior, utilice una lista para los botones 
+      de navegación, y en esta página utilice <span> para que queden en línea.
+      Además, utilice un párrafo para el contenido de la página.
+    <br>
+      Agrego una script de estilos en CSS lo que nos ayuda a tener mejor visibilidad.
+    </p>
   <p>Este es el contenido principal de la página.</p>
+  <section class="video">
+  <h2>Video de Presentación</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yugO8Y6-vBQ" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+</section>  
+</div>
 </main>
+
 <footer>
   <p>&copy; 2025 Mi Sitio Web</p>
 </footer>
